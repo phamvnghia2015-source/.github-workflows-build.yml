@@ -1,0 +1,22 @@
+name: tiklive_mobile
+description: TikTok Live Alert + TTS + Music
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  piratetok_live: ^0.1.5
+  flutter_tts: ^4.0.2
+  audioplayers: ^6.0.0
+  shared_preferences: ^2.2.2
+  wakelock_plus: ^1.2.4
+  flutter_foreground_task: ^8.10.4
+  permission_handler: ^11.3.0
+
+flutter:
+  uses-material-design: true
+
+  
